@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Comme:wght@700&family=Open+Sans&family=PT+Serif:ital@1&family=Work+Sans&display=swap');
+
+body {
+  color: #222; /* dark gray */
+  font-family: "Castoro Tilting", "Open Sans", "Comme", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  max-width: 960px;
+  margin: 0 auto;
+  background-image: url("../images/background.jpg"), linear-gradient(white, silver, black);
+  background-repeat: no-repeat;
+}
+
+body.pregame-postgame-live-interviews {
+  background-color: #000000;
+  opacity: 1;
+  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+}
+
+body.resume {
+  background-color: #000000;
+  opacity: 1;
+  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+}
+
+body.writing {
+  background-color: #000000;
+  opacity: 1;
+  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+}
+
+body.television {
+  background-color: #000000;
+  opacity: 1;
+  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+}
+
+body.play-by-play {
+  background-color: #000000;
+  opacity: 1;
+  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 3fr;
+  column-gap: 100px;
+  max-width: 960px;
+}
+
+a,
+a:link {
+  color: black;
+  text-decoration: underline;
+}
+
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #005030;
+  text-decoration: underline;
+}
+
+header {
+  background-image: linear-gradient(white, silver, black);
+  border: 10px inset gray;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  bottom: 0 px;
+  text-align: center;
+}
+
+#social-media {
+  text-align: center;
+  color: black;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 9px;
+  padding-top: 25px;
+  padding-bottom: 25 px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+ul {
+  font-family: "Open Sans", "Castoro Tilting", "Comme", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: "Comme", "Castoro Tilting", "Open Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Open Sans", "Castoro Tilting", "Comme", "Helvetica", "Arial", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "Work Sans", "Open Sans", "Castoro Tilting", "Comme", "Helvetica", "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin: auto;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+figcaption {
+  font-family: "PT Serif", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style:italic;
+}
+
+figure {
+  margin-left: 0px;
+}
+
+#headshot {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#about-me {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#play-by-play {
+  background-color: #ccc;
+  border: 10px outset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#on-the-camera {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#behind-the-camera {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#writing {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#education {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+#resume {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#baseball-television {
+  background-color: #ccc;
+  border: 10px outset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+}
+
+.grid-container-6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-8 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-9 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-10 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-11 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-12 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+#baseball-radio {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#basketball-radio {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+}
+
+#womens-basketball-radio {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+}
+
+#pregame-shows {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#postgame-shows {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#halftime-shows {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#mid-inning-reports {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#live-interviews {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+iframe {
+  border-width: 0px;
+}
+
+#wgem {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+#umtv {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#stand-ups-and-live-shots {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#mhb-story {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#mhbc-story {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#mhwb-story {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#mh-story {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#mm-story {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#mot-story {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+img {
+  border: 5px ridge #000000;
+}
