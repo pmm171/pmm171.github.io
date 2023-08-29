@@ -12,6 +12,10 @@ body {
   background-repeat: no-repeat;
 }
 
+body.a {
+  color: black;
+}
+
 body.pregame-postgame-live-interviews {
   background-color: #000000;
   opacity: 1;
@@ -51,10 +55,8 @@ main {
 
 a,
 a:link {
-  color: black;
   text-decoration: underline;
 }
-
 
 a:hover {
   color: blue;
@@ -84,14 +86,14 @@ header::after {
   clear: both;
 }
 
-nav {
-  bottom: 0 px;
-  text-align: center;
-}
-
 #social-media {
   text-align: center;
   color: black;
+}
+
+nav {
+  bottom: 0 px;
+  text-align: center;
 }
 
 nav ul {
@@ -108,10 +110,10 @@ nav li {
 }
 
 nav a {
-  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
+  color: white;
 }
 
 ul {
