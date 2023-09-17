@@ -343,6 +343,12 @@ figure {
   grid-gap: 40px;
 }
 
+.grid-container-13 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
 #baseball-radio {
   background-color: #ccc;
   border: 10px inset #005030;
@@ -355,7 +361,7 @@ figure {
   width: 960px;
 }
 
-#basketball-radio {
+#football-radio {
   background-color: #ccc;
   border: 10px inset #F47321;
   margin-top: 10px;
@@ -366,9 +372,20 @@ figure {
   max-width: 960px;
 }
 
-#womens-basketball-radio {
+#basketball-radio {
   background-color: #ccc;
   border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+}
+
+#womens-basketball-radio {
+  background-color: #ccc;
+  border: 10px inset #F47321;
   margin-top: 10px;
   margin-right: 0px;
   margin-bottom: 10px;
@@ -471,6 +488,18 @@ iframe {
 #stand-ups-and-live-shots {
   background-color: #ccc;
   border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#anchor {
+  background-color: #ccc;
+  border: 10px inset #005030;
   margin-top: 10px;
   margin-right: 0px;
   margin-bottom: 10px;
