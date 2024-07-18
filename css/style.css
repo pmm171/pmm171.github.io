@@ -8,7 +8,7 @@ body {
   line-height: 1.5;
   max-width: 960px;
   margin: 0 auto;
-  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+  background: repeating-linear-gradient( 45deg, #000000, #000000 20px, #4c4c4c 20px, #4c4c4c 100px );
 }
 
 body.a {
@@ -16,39 +16,45 @@ body.a {
 }
 
 body.pregame-postgame-live-interviews {
-  background-color: #000000;
+  background-color: #4c4c4c;
   opacity: 1;
-  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+  background: repeating-linear-gradient( 45deg, #000000, #000000 20px, #4c4c4c 20px, #4c4c4c 100px );
 }
 
 body.resume {
-  background-color: #000000;
+  background-color: #4c4c4c;
   opacity: 1;
-  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+  background: repeating-linear-gradient( 45deg, #000000, #000000 20px, #4c4c4c 20px, #4c4c4c 100px );
 }
 
 body.writing {
-  background-color: #000000;
+  background-color: #4c4c4c;
   opacity: 1;
-  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+  background: repeating-linear-gradient( 45deg, #000000, #000000 20px, #4c4c4c 20px, #4c4c4c 100px );
 }
 
 body.television {
-  background-color: #000000;
+  background-color: #4c4c4c;
   opacity: 1;
-  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+  background: repeating-linear-gradient( 45deg, #000000, #000000 20px, #4c4c4c 20px, #4c4c4c 100px );
 }
 
 body.play-by-play {
-  background-color: #000000;
+  background-color: #4c4c4c;
   opacity: 1;
-  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+  background: repeating-linear-gradient( 45deg, #000000, #000000 20px, #4c4c4c 20px, #4c4c4c 100px );
 }
 
 body.the-announcers-hour {
-  background-color: #000000;
-  background: linear-gradient(135deg, #6e6f7655 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #6e6f76 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #6e6f7655 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #6e6f76 25%, #000000 25%) 0px 0/ 80px 80px;
+  background-color: #4c4c4c;
   opacity: 1;
+  background: repeating-linear-gradient( 45deg, #000000, #000000 20px, #4c4c4c 20px, #4c4c4c 100px );
+}
+
+body.pmloss {
+  background-color: #4c4c4c;
+  opacity: 1;
+  background: repeating-linear-gradient( 45deg, #000000, #000000 20px, #4c4c4c 20px, #4c4c4c 100px );
 }
 
 main {
@@ -233,7 +239,19 @@ figure {
 
 #writing {
   background-color: #ccc;
-  border: 10px inset #005030;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#experience {
+  background-color: #ccc;
+  border: 10px inset #F47321;
   margin-top: 10px;
   margin-right: 0px;
   margin-bottom: 10px;
@@ -245,17 +263,55 @@ figure {
 
 #education {
   background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#contact {
+  background-color: #ccc;
   border: 10px inset #F47321;
   margin-top: 10px;
   margin-right: 0px;
   margin-bottom: 10px;
   margin-left: 0px;
   padding: 10px;
+  max-width: 960px;
+  width: 960px;
 }
 
 #resume {
   background-color: #ccc;
   border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#weightloss {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#latestvideo {
+  background-color: #ccc;
+  border: 10px inset #005030;
   margin-top: 10px;
   margin-right: 0px;
   margin-bottom: 10px;
@@ -280,13 +336,13 @@ figure {
 .grid-container-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 100px;
+  grid-gap: 40px;
 }
 
 .grid-container-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
+  grid-gap: 100px;
 }
 
 .grid-container-3 {
@@ -505,7 +561,7 @@ iframe {
 
 #anchor {
   background-color: #ccc;
-  border: 10px inset #005030;
+  border: 10px inset #F47321;
   margin-top: 10px;
   margin-right: 0px;
   margin-bottom: 10px;
@@ -627,6 +683,46 @@ iframe {
   background-color: #ccc;
   border: 10px inset #F47321;
   margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+iframe{
+  border-width: 0px;
+}
+
+#play-by-play-reel {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#radio-samples {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#baseball-television {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
   margin-right: 0px;
   margin-bottom: 10px;
   margin-left: 0px;
