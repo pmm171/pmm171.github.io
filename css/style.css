@@ -411,6 +411,30 @@ figure {
   grid-gap: 40px;
 }
 
+.grid-container-14 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-15 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-16 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-17 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
 #baseball-radio {
   background-color: #ccc;
   border: 10px inset #005030;
@@ -720,6 +744,18 @@ iframe{
 }
 
 #baseball-television {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#radio-shows {
   background-color: #ccc;
   border: 10px inset #F47321;
   margin-top: 10px;
