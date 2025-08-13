@@ -323,6 +323,18 @@ figure {
 
 #baseball-samples {
   background-color: #ccc;
+  border: 10px outset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#basketball-samples {
+  background-color: #ccc;
   border: 10px outset #F47321;
   margin-top: 10px;
   margin-right: 0px;
@@ -731,7 +743,7 @@ iframe{
   width: 960px;
 }
 
-#radio-samples {
+#football-samples {
   background-color: #ccc;
   border: 10px inset #005030;
   margin-top: 10px;
