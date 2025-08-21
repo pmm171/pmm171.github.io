@@ -447,6 +447,24 @@ figure {
   grid-gap: 40px;
 }
 
+.grid-container-18 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-19 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.grid-container-20 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 90px;
+}
+
 #baseball-radio {
   background-color: #ccc;
   border: 10px inset #005030;
@@ -768,6 +786,30 @@ iframe{
 }
 
 #radio-shows {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#prepostgame {
+  background-color: #ccc;
+  border: 10px inset #005030;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
+#liveinterviews {
   background-color: #ccc;
   border: 10px inset #F47321;
   margin-top: 10px;
