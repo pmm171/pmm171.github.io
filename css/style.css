@@ -709,6 +709,18 @@ iframe {
   width: 960px;
 }
 
+#story1 {
+  background-color: #ccc;
+  border: 10px inset #F47321;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  padding: 10px;
+  max-width: 960px;
+  width: 960px;
+}
+
 #mm-story {
   background-color: #ccc;
   border: 10px inset #F47321;
